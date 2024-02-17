@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --color-btn: #219f95;
+    --color-mainBlack: #1e1e1e;
+    --color-mainWhite: #ffffff;
+    --color-header: #234894;
+    --color-mainGray: #696969;
+    --color-bgcBadge: #afcedd;
+}
+
+.view-request {
+    border: 2px solid var(--color-mainGray);
+    margin: 0.5rem 1rem;
+}
+
+.view__title {
+    margin: 2rem 1rem;
+}
+
+
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.member__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_upload {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.header_upload span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--color-bgcBadge);
+    color: var(--color-header);
+}
+
+.member__header .header-date {
+    color: var(--color-mainGray);
+    margin-right: 4rem;
+}
+
+.header_upload p {
+    font-size: 1rem;
+    color: var(--color-header);
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.member__title p {
+    color: var(--color-mainGray);
+    font-size: 0.765rem;
+    font-weight: 100;
+}
+
+.member__info {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.member__info>div {
+    display: flex;
+    align-items: center;
+}
+
+.member__info div p {
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+.img-container img {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-request {
+    outline: none;
+    border: 0;
+    background-color: var(--color-btn);
+    color: var(--color-mainWhite);
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1rem;
+    /* margin-right: 3rem; */
+}
